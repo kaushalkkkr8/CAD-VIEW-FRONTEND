@@ -56,8 +56,13 @@ button:focus-visible {
 
 
 .rootFile{
-  padding: 10px 40px;
-  border: 4px dashed teal;
-  border-radius: 5px;
+  border: 2px dashed teal;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+  width: 800px;
 
 }
