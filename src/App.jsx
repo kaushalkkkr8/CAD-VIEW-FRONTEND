@@ -6,12 +6,12 @@ import FileDropZone from './components/FIleDropZone'
 import CadView from './components/CadView'
 
 function App() {
-
+  const [fileUploaded, setFileUploaded] = useState(false);
 
   return (
     <>
-        <FileDropZone />
-        <CadView />
+        <FileDropZone onUploadSuccess={() => setFileUploaded(true)}  />
+        <CadView fileUploaded={fileUploaded} clearUploadFlag={() => setFileUploaded(false)}/>
     </>
   )
 }

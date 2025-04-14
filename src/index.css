@@ -63,6 +63,15 @@ button:focus-visible {
   margin-top: 20px;
   border-radius: 8px;
   transition: border-color 0.3s ease;
-  width: 800px;
+  width: 1100px;
 
+}
+td{
+  word-wrap: break-word;
+  white-space: normal;
+  max-width: 80px;
+}
+
+.maxWidth{
+  max-width: 1100px;
 }
